@@ -1,17 +1,95 @@
 body {
-    background-color:#bcefff;
+    background-color:#cdeeff;
+    margin: 0;
+    font-family: monospace;
+    font-size: 16px;
 }
-h1 {
-   color: #595ba6;
-   font-family: verdana;
 
+header{
+    margin: 0;
+    font-size: 0;
+    line-height: 70px;
+    padding: 0;
+    color: #cdeeff;
+   /* height: 45px;*/
+   /* width: 100%;*/
+}
+
+header > * {
+    background-color: #5c5d8d;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 10%;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.logo > img {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.navbar {
+    width: 75%;
+    text-align: center;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.actions{
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.titulo {
+   color: #5c5d8d;
+   font-family: 'Bagel Fat One', cursive;
+   font-size: 50px;
+   
+}
+
+.gatito-lp {
+    height: 300px;
+
+}
+ul {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
 }
 button {
-    color:#f6f3f6;
-    background-color:#ab4e87 ;
+    display: inline;
+    color:black;
+    background-color: #ff8997;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
 }
+/*
 p {
     color: #0d106b;
-    font-family: verdana;
-
-}
+}*/
